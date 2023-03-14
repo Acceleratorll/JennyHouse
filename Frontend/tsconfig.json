@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/index.jsx", "src/pages/article/[slug].jsx", "src/pa", "src/pages/index.jsx", "ges/article/[slug].jsx", "src/pages/tipsdantutorial.jsx", "src/pages/review.jsx", "src/pages/review.jsx", "src/component/hero2.jsx", "src/component/hero2.jsx", "src/component/hero.jsx", "src/component/hero.jsx", "src/component/card_hero.jsx", "src/component/card_hero.jsx"],
+  "exclude": ["node_modules"]
+}
